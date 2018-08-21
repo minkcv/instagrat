@@ -109,3 +109,7 @@ html, body {
     width: 20px;
     height: 20px;
 }
+
+a, a:hover, a:visited {
+    color: #555555;
+}
