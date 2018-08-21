@@ -1,0 +1,111 @@
+html, body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#content {
+    padding-top: 10px;
+    margin-left: 35%;
+    margin-right: 40%;
+}
+
+#menu {
+    width: 100%;
+    background-color: #205bcf;
+    color: white;
+    height: 30px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+#menu > img {
+    width: 30px;
+    height: 30px;
+}
+#search {
+    margin-left: 37%;
+}
+
+#menu > input {
+    margin-right: 20px;
+    border-radius: 3px;
+    border-style: solid;
+    border-color: white;
+}
+
+.count {
+    display: inline-block;
+    border-style: solid;
+    background-color: red;
+    border-color: red;
+    border-radius: 4px;
+    padding-left: 3px;
+    padding-right: 3px;
+    text-align: center;
+}
+
+#post {
+    text-align: right;
+}
+
+#posted {
+    display: none;
+}
+
+#posted-image {
+    display: none;
+    height: 200px;
+    max-width: 400px;
+}
+
+.comment {
+    background-color: #eeeeee;
+    padding: 20px;
+    margin: 5px;
+}
+
+#post-text {
+    width: 100%;
+    border-radius: 5px;
+}
+
+#post-button {
+    border-radius: 5px;
+    border-color: #205bcf;
+    border-style: solid;
+    background-color: #205bcf;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#numbers {
+    display: none;
+}
+
+#numbers > ul {
+    list-style-type: none;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+
+#numbers > ul > li {
+    display: inline-block;
+}
+#numbers > ul > li > span {
+    display: inline-block;
+    padding: 5px;
+}
+#numbers > ul > li > img {
+    margin-top: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+.comment > div > img {
+    width: 20px;
+    height: 20px;
+}

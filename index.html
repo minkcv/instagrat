@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>InstaGrat</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <div style="position: absolute; color: white; font-size: 24pt; margin: 5px;">InstaGrat</div>
+    <div id='menu'>
+        <span id='search'>
+            Search
+        </span>
+        <input type="text" style="width: 300px">
+        <img src="img/friends.png"/>
+        <span id="friends"></span>
+        <img src="img/notification.png"/>
+        <span id="notifications"></span>
+        <img src="img/chat.png"/>
+        <span id="chats"></span>
+    </div>
+    <div id="content">
+        <div id="post">
+            <textarea id='post-text' rows="4" placeholder="Put opinion here"></textarea> <br/>
+            <span>Upload a picture:</span>
+            <input type="file" onchange="previewFile()">
+            <input id='post-button' type="button" value="Post" onclick='post()'>
+        </div>
+        <div id='posted' class='comment'>
+            <span id='posted-text'></span>
+            <img src="" id='posted-image'/>
+            <div id="numbers">
+                <ul>
+                    <li><img src="img/like.png"/><span id="likes"></span></li>
+                    <li><img src="img/share.png"/><span id="shares"></span></li>
+                    <li><img src="img/share2.png"/><span id="shares2"></span></li>
+                    <li><img src="img/favorite.png"/><span id="favorites"></span></li>
+                    <li><img src="img/star.png"/><span id="stars"></span></li>
+                </ul>
+            </div>
+        </div>
+        <div id="comments">
+        </div>
+    </div>
+</body>
+</html>
